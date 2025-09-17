@@ -76,4 +76,12 @@ dependencies {
 
     // LiveData
     implementation("androidx.compose.runtime:runtime-livedata:1.9.1")
+
+
+    // Coil
+    implementation("io.coil-kt.coil3:coil-compose:3.3.0")
+
+
+    // Animation
+    implementation("androidx.compose.animation:animation:1.9.1")
 }

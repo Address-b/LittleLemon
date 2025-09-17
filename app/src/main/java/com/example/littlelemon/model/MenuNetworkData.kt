@@ -1,10 +1,10 @@
-package com.example.littlelemon
+package com.example.littlelemon.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class MenuNetworkData(
+data class MenuResponse(
     @SerialName("menu")
     val menu: List<MenuItem>
 )
